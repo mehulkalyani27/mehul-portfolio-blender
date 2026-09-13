@@ -1,0 +1,61 @@
+# ---------------------------------------------------------------------------
+# Git LFS — binary source assets
+#
+# These formats are opaque to git: they cannot be diffed or merged, and every
+# saved revision stores a whole new copy. Blender rewrites the entire .blend on
+# each save, so without LFS this repository would grow by the full file size on
+# every commit. LFS keeps a pointer in history and the payload out of the pack.
+#
+# Run `git lfs install` once per machine after cloning, then `git lfs pull`.
+# ---------------------------------------------------------------------------
+
+# Blender scenes and asset libraries
+*.blend    filter=lfs diff=lfs merge=lfs -text
+*.blend1   filter=lfs diff=lfs merge=lfs -text
+
+# 3D interchange — the product/prop sources under assets/models/
+*.glb      filter=lfs diff=lfs merge=lfs -text
+*.gltf     filter=lfs diff=lfs merge=lfs -text
+*.fbx      filter=lfs diff=lfs merge=lfs -text
+*.obj      filter=lfs diff=lfs merge=lfs -text
+*.abc      filter=lfs diff=lfs merge=lfs -text
+*.usd      filter=lfs diff=lfs merge=lfs -text
+*.usda     filter=lfs diff=lfs merge=lfs -text
+*.usdc     filter=lfs diff=lfs merge=lfs -text
+*.usdz     filter=lfs diff=lfs merge=lfs -text
+*.ply      filter=lfs diff=lfs merge=lfs -text
+*.stl      filter=lfs diff=lfs merge=lfs -text
+
+# High-bit-depth / layered imagery: HDRIs, bakes, source art.
+# Small 8-bit PNG/JPG textures are deliberately NOT tracked here — the three
+# textures this scene uses are 1 KB-129 KB and belong in git proper, where they
+# stay fetchable without an LFS pull. Add a specific large texture with
+# `git lfs track "assets/textures/<name>"` if one ever warrants it.
+*.exr      filter=lfs diff=lfs merge=lfs -text
+*.hdr      filter=lfs diff=lfs merge=lfs -text
+*.tif      filter=lfs diff=lfs merge=lfs -text
+*.tiff     filter=lfs diff=lfs merge=lfs -text
+*.tga      filter=lfs diff=lfs merge=lfs -text
+*.psd      filter=lfs diff=lfs merge=lfs -text
+*.dds      filter=lfs diff=lfs merge=lfs -text
+*.ktx2     filter=lfs diff=lfs merge=lfs -text
+*.basis    filter=lfs diff=lfs merge=lfs -text
+
+# Media
+*.mp4      filter=lfs diff=lfs merge=lfs -text
+*.mov      filter=lfs diff=lfs merge=lfs -text
+*.wav      filter=lfs diff=lfs merge=lfs -text
+*.flac     filter=lfs diff=lfs merge=lfs -text
+
+# ---------------------------------------------------------------------------
+# Text normalisation
+# ---------------------------------------------------------------------------
+*.py       text eol=lf diff=python
+*.md       text eol=lf
+*.json     text eol=lf
+*.txt      text eol=lf
+.gitignore     text eol=lf
+.gitattributes text eol=lf
+
+# Keep generated/large files out of diffs and language stats
+assets/models/** linguist-vendored

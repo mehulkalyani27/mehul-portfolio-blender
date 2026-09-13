@@ -1,0 +1,737 @@
+{
+  "Hero_Drone_Imported": {
+    "present": true,
+    "type": "EMPTY",
+    "parent": "Vending_TechLocker",
+    "world_loc": [
+      4.005,
+      -0.4,
+      2.48035
+    ],
+    "world_quat": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "world_euler_deg": [
+      0.0,
+      -0.0,
+      0.0
+    ],
+    "world_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "bbox": {
+      "min": [
+        3.9,
+        -0.500517,
+        2.449825
+      ],
+      "max": [
+        4.110001,
+        -0.299483,
+        2.510875
+      ],
+      "size": [
+        0.210001,
+        0.201034,
+        0.061051
+      ],
+      "center": [
+        4.005,
+        -0.4,
+        2.48035
+      ]
+    },
+    "descendants": 706
+  },
+  "AirPods_Pro_Imported": {
+    "present": true,
+    "type": "EMPTY",
+    "parent": "Vending_TechLocker",
+    "world_loc": [
+      4.059999,
+      0.05,
+      2.48035
+    ],
+    "world_quat": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "world_euler_deg": [
+      0.0,
+      -0.0,
+      0.0
+    ],
+    "world_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "bbox": {
+      "min": [
+        4.046786,
+        0.0125,
+        2.450317
+      ],
+      "max": [
+        4.073213,
+        0.0875,
+        2.508844
+      ],
+      "size": [
+        0.026427,
+        0.075,
+        0.058527
+      ],
+      "center": [
+        4.06,
+        0.05,
+        2.47958
+      ]
+    },
+    "descendants": 55
+  },
+  "Insta360_Imported": {
+    "present": true,
+    "type": "EMPTY",
+    "parent": "Vending_TechLocker",
+    "world_loc": [
+      4.055,
+      -0.4,
+      1.947
+    ],
+    "world_quat": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "world_euler_deg": [
+      0.0,
+      -0.0,
+      0.0
+    ],
+    "world_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "bbox": {
+      "min": [
+        4.028709,
+        -0.418272,
+        1.882
+      ],
+      "max": [
+        4.08129,
+        -0.381728,
+        2.012
+      ],
+      "size": [
+        0.052581,
+        0.036545,
+        0.13
+      ],
+      "center": [
+        4.055,
+        -0.4,
+        1.947
+      ]
+    },
+    "descendants": 5
+  },
+  "RayBan_Imported": {
+    "present": true,
+    "type": "EMPTY",
+    "parent": "Vending_TechLocker",
+    "world_loc": [
+      4.038,
+      0.05,
+      1.947
+    ],
+    "world_quat": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "world_euler_deg": [
+      0.0,
+      -0.0,
+      0.0
+    ],
+    "world_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "bbox": {
+      "min": [
+        3.970213,
+        -0.019533,
+        1.928447
+      ],
+      "max": [
+        4.106056,
+        0.11999,
+        1.965553
+      ],
+      "size": [
+        0.135843,
+        0.139523,
+        0.037106
+      ],
+      "center": [
+        4.038134,
+        0.050229,
+        1.947
+      ]
+    },
+    "descendants": 15
+  },
+  "PowerBank_Imported": {
+    "present": true,
+    "type": "EMPTY",
+    "parent": "Vending_TechLocker",
+    "world_loc": [
+      4.055,
+      -0.4,
+      1.41365
+    ],
+    "world_quat": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "world_euler_deg": [
+      0.0,
+      -0.0,
+      0.0
+    ],
+    "world_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "bbox": {
+      "min": [
+        4.01531,
+        -0.447114,
+        1.339926
+      ],
+      "max": [
+        4.100008,
+        -0.385141,
+        1.482988
+      ],
+      "size": [
+        0.084698,
+        0.061973,
+        0.143062
+      ],
+      "center": [
+        4.057659,
+        -0.416128,
+        1.411457
+      ]
+    },
+    "descendants": 30
+  },
+  "Hero_AppleVisionPro": {
+    "present": true,
+    "type": "EMPTY",
+    "parent": "Vending_TechLocker",
+    "world_loc": [
+      4.04,
+      0.05,
+      1.41365
+    ],
+    "world_quat": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "world_euler_deg": [
+      0.0,
+      -0.0,
+      0.0
+    ],
+    "world_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "bbox": {
+      "min": [
+        3.95616,
+        -0.005974,
+        1.38323
+      ],
+      "max": [
+        4.124329,
+        0.105974,
+        1.444379
+      ],
+      "size": [
+        0.168168,
+        0.111947,
+        0.061149
+      ],
+      "center": [
+        4.040244,
+        0.05,
+        1.413805
+      ]
+    },
+    "descendants": 214
+  },
+  "Storefront_WallClock": {
+    "present": true,
+    "type": "MESH",
+    "parent": "Shop_Structure",
+    "world_loc": [
+      -2.325,
+      -1.64,
+      1.65
+    ],
+    "world_quat": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "world_euler_deg": [
+      0.0,
+      -0.0,
+      0.0
+    ],
+    "world_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "bbox": {
+      "min": [
+        -2.55,
+        -1.66446,
+        1.425
+      ],
+      "max": [
+        -2.1,
+        -1.61554,
+        1.875
+      ],
+      "size": [
+        0.45,
+        0.04892,
+        0.45
+      ],
+      "center": [
+        -2.325,
+        -1.64,
+        1.65
+      ]
+    },
+    "descendants": 0
+  },
+  "Storefront_Perfume": {
+    "present": true,
+    "type": "MESH",
+    "parent": "Shop_Structure",
+    "world_loc": [
+      -1.11,
+      -1.64,
+      1.575
+    ],
+    "world_quat": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "world_euler_deg": [
+      0.0,
+      -0.0,
+      0.0
+    ],
+    "world_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "bbox": {
+      "min": [
+        -1.2,
+        -1.73,
+        1.425
+      ],
+      "max": [
+        -1.02,
+        -1.55,
+        1.725
+      ],
+      "size": [
+        0.18,
+        0.18,
+        0.3
+      ],
+      "center": [
+        -1.11,
+        -1.64,
+        1.575
+      ]
+    },
+    "descendants": 0
+  },
+  "Storefront_HandWatch": {
+    "present": true,
+    "type": "MESH",
+    "parent": "Shop_Structure",
+    "world_loc": [
+      -0.01,
+      -1.64,
+      1.605
+    ],
+    "world_quat": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "world_euler_deg": [
+      0.0,
+      -0.0,
+      0.0
+    ],
+    "world_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "bbox": {
+      "min": [
+        -0.080578,
+        -1.75,
+        1.505
+      ],
+      "max": [
+        0.060577,
+        -1.53,
+        1.705
+      ],
+      "size": [
+        0.141155,
+        0.22,
+        0.2
+      ],
+      "center": [
+        -0.01,
+        -1.64,
+        1.605
+      ]
+    },
+    "descendants": 0
+  },
+  "Storefront_Handbag": {
+    "present": true,
+    "type": "MESH",
+    "parent": "Shop_Structure",
+    "world_loc": [
+      -2.345515,
+      -1.64,
+      2.6
+    ],
+    "world_quat": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "world_euler_deg": [
+      0.0,
+      -0.0,
+      0.0
+    ],
+    "world_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "bbox": {
+      "min": [
+        -2.620515,
+        -1.75,
+        2.375
+      ],
+      "max": [
+        -2.070515,
+        -1.53,
+        2.825
+      ],
+      "size": [
+        0.55,
+        0.22,
+        0.45
+      ],
+      "center": [
+        -2.345515,
+        -1.64,
+        2.6
+      ]
+    },
+    "descendants": 0
+  },
+  "Storefront_FlowerVase": {
+    "present": true,
+    "type": "MESH",
+    "parent": "Shop_Structure",
+    "world_loc": [
+      -1.080515,
+      -1.64,
+      2.625
+    ],
+    "world_quat": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "world_euler_deg": [
+      0.0,
+      -0.0,
+      0.0
+    ],
+    "world_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "bbox": {
+      "min": [
+        -1.170515,
+        -1.73,
+        2.375
+      ],
+      "max": [
+        -0.990515,
+        -1.55,
+        2.875
+      ],
+      "size": [
+        0.18,
+        0.18,
+        0.5
+      ],
+      "center": [
+        -1.080515,
+        -1.64,
+        2.625
+      ]
+    },
+    "descendants": 0
+  },
+  "Storefront_StanleyTumbler": {
+    "present": true,
+    "type": "MESH",
+    "parent": "Shop_Structure",
+    "world_loc": [
+      0.04,
+      -1.64,
+      2.65
+    ],
+    "world_quat": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "world_euler_deg": [
+      0.0,
+      -0.0,
+      0.0
+    ],
+    "world_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "bbox": {
+      "min": [
+        -0.090515,
+        -1.727326,
+        2.375
+      ],
+      "max": [
+        0.170515,
+        -1.552674,
+        2.925
+      ],
+      "size": [
+        0.26103,
+        0.174652,
+        0.55
+      ],
+      "center": [
+        0.04,
+        -1.64,
+        2.65
+      ]
+    },
+    "descendants": 0
+  },
+  "Storefront_ToyRobot": {
+    "present": true,
+    "type": "EMPTY",
+    "parent": "Shop_Structure",
+    "world_loc": [
+      2.575,
+      -1.64,
+      1.546901
+    ],
+    "world_quat": [
+      0.707107,
+      -0.0,
+      -0.0,
+      -0.707107
+    ],
+    "world_euler_deg": [
+      0.0,
+      -0.0,
+      -90.0
+    ],
+    "world_scale": [
+      0.065428,
+      0.065428,
+      0.065428
+    ],
+    "bbox": {
+      "min": [
+        2.4346,
+        -1.7804,
+        1.425
+      ],
+      "max": [
+        2.7154,
+        -1.4996,
+        1.777002
+      ],
+      "size": [
+        0.2808,
+        0.2808,
+        0.352002
+      ],
+      "center": [
+        2.575,
+        -1.64,
+        1.601001
+      ]
+    },
+    "descendants": 30
+  },
+  "Storefront_Lamp": {
+    "present": true,
+    "type": "MESH",
+    "parent": "Shop_Structure",
+    "world_loc": [
+      2.575,
+      -1.64,
+      2.7125
+    ],
+    "world_quat": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "world_euler_deg": [
+      0.0,
+      -0.0,
+      0.0
+    ],
+    "world_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "bbox": {
+      "min": [
+        2.445,
+        -1.77,
+        2.375
+      ],
+      "max": [
+        2.705,
+        -1.51,
+        3.05
+      ],
+      "size": [
+        0.26,
+        0.26,
+        0.675
+      ],
+      "center": [
+        2.575,
+        -1.64,
+        2.7125
+      ]
+    },
+    "descendants": 0
+  },
+  "Hero_SecurityDrone": {
+    "present": true,
+    "type": "EMPTY",
+    "parent": "Diorama_Base",
+    "world_loc": [
+      0.5,
+      -3.0,
+      7.0
+    ],
+    "world_quat": [
+      0.707107,
+      -0.707107,
+      -0.0,
+      -0.0
+    ],
+    "world_euler_deg": [
+      -90.0,
+      -0.0,
+      0.0
+    ],
+    "world_scale": [
+      0.192681,
+      0.192681,
+      0.192681
+    ],
+    "bbox": {
+      "min": [
+        0.05,
+        -3.167545,
+        6.781936
+      ],
+      "max": [
+        0.95,
+        -2.849488,
+        7.151507
+      ],
+      "size": [
+        0.9,
+        0.318057,
+        0.369571
+      ],
+      "center": [
+        0.5,
+        -3.008517,
+        6.966721
+      ]
+    },
+    "descendants": 30
+  }
+}

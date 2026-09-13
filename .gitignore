@@ -1,0 +1,68 @@
+# ---------------------------------------------------------------------------
+# Blender working files
+# ---------------------------------------------------------------------------
+
+# Rolling save backups Blender writes next to the .blend on every save.
+*.blend1
+*.blend2
+*.blend3
+*.blend[0-9]
+*.blend@
+
+# Crash recovery / autosave
+*.blend.autosave
+quit.blend
+/backups/
+
+# Physics, fluid, smoke and point caches
+blendcache_*/
+/cache/
+*.bphys
+*.bobj.gz
+*.bvel.gz
+
+# Baked lighting / texture bakes that a script can regenerate
+/bakes/
+
+# ---------------------------------------------------------------------------
+# Generated artifacts
+#
+# exports/ holds the GLB produced by scripts/export/export_glb.py. It is a
+# build output of blend/main-scene.blend, not a source file — committing it
+# would leave two artifacts to keep in step instead of one. Regenerate with:
+#
+#   blender --background blend/main-scene.blend \
+#           --python scripts/export/export_glb.py
+# ---------------------------------------------------------------------------
+exports/*
+!exports/.gitkeep
+
+# Renders
+/renders/
+*.avi
+*.mkv
+*.webm
+*.png.webp
+
+# ---------------------------------------------------------------------------
+# Python
+# ---------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# ---------------------------------------------------------------------------
+# OS / editor cruft
+# ---------------------------------------------------------------------------
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+*~
